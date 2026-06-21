@@ -52,6 +52,14 @@
     background-size: cover;
 }
 
+.farm {
+    width: 80px;
+    height: 80px;
+    background-image: url(images/grid/farm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .forest {
     width: 80px;
     height: 80px;
