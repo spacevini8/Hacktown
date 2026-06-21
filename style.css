@@ -1,18 +1,17 @@
-th {
+.map-table th {
     border: 1px solid #ffffff;
     color: #ffffff;
     margin: 1em auto;
     padding: 5px;
 }
-/*
-td {
+
+.map-table td {
     width: 80px;
     height: 80px;
     text-align: center;
-    border: 1px solid #ffffff;
     vertical-align: bottom;
 }
-*/
+
 .arcade {
     width: 80px;
     height: 80px;
@@ -80,7 +79,7 @@ td {
 .roadup {
     width: 80px;
     height: 80px;
-    background-image: url(/img/grid/pathup.png);
+    background-image: url(images/grid/road/roadup.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -88,7 +87,7 @@ td {
 .roadside {
     width: 80px;
     height: 80px;
-    background-image: url(/img/grid/pathside.png);
+    background-image: url(images/grid/road/roadside.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,7 +95,15 @@ td {
 .roadT {
     width: 80px;
     height: 80px;
-    background-image: url(/img/grid/pathT.png);
+    background-image: url(images/grid/road/roadT.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadT2 {
+    width: 80px;
+    height: 80px;
+    background-image: url(images/grid/road/roadT2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -104,7 +111,7 @@ td {
 .roadturn1 {
     width: 80px;
     height: 80px;
-    background-image: url(/img/grid/pathturn1.png);
+    background-image: url(images/grid/road/roadturn1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -112,7 +119,7 @@ td {
 .roadturn2 {
     width: 80px;
     height: 80px;
-    background-image: url(/img/grid/pathturn2.png);
+    background-image: url(images/grid/road/roadturn2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -120,7 +127,7 @@ td {
 .roadturn3 {
     width: 80px;
     height: 80px;
-    background-image: url(/img/grid/pathturn3.png);
+    background-image: url(images/grid/road/roadturn3.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -128,7 +135,29 @@ td {
 .roadturn4 {
     width: 80px;
     height: 80px;
-    background-image: url(/img/grid/pathturn4.png);
+    background-image: url(images/grid/road/roadturn4.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.towna {
+    color: #ffbb00;
+    background-color: #ffbb0040;
+    font-weight: bold;
+}
+
+.board {
+    color: #00ffdd;
+    background-color: #00ffdd40;
+    font-weight: bold;
+}
+
+.netz {
+    color: #5eff00;
+    background-color: #5eff0040;
+    font-weight: bold;
+}
+
+.wrapper {
+    text-align: center;
 }
