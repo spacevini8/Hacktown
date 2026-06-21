@@ -1,0 +1,15 @@
+table, th {
+    border: 1px solid #ffffff;
+    background: #000000;
+    color: #ffffff;
+    margin: 1em auto;
+    padding: 5px;
+}
+
+.grass {
+    width: 80px;
+    height: 80px;
+    background-image: url(images\buttons\0.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
