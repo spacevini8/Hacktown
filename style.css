@@ -1,15 +1,134 @@
-table, th {
+th {
     border: 1px solid #ffffff;
-    background: #000000;
     color: #ffffff;
     margin: 1em auto;
     padding: 5px;
+}
+/*
+td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    vertical-align: bottom;
+}
+*/
+.arcade {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/arcade.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .grass {
     width: 80px;
     height: 80px;
-    background-image: url(images\buttons\0.gif);
+    background-image: url(images/grid/grass.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sand {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/sand.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.water {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/water.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.field {
+    width: 80px;
+    height: 80px;
+    background-image: url(images/grid/flowers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forest {
+    width: 80px;
+    height: 80px;
+    background-image: url(images/grid/forest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reserve {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/reserved.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.freserve {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/freserved.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadup {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/pathup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadside {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/pathside.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadT {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/pathT.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadturn1 {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/pathturn1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadturn2 {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/pathturn2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadturn3 {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/pathturn3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadturn4 {
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/grid/pathturn4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
